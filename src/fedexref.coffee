@@ -34,7 +34,7 @@ class FedexClient extends ShipperClient
           'ns:Minor': 0
         'ns:PackageIdentifier':
           'ns:Value': trk
-          'ns:Type': 'TRACKING_NUMBER_OR_DOORTAG'
+          'ns:Type': 'SHIPPER_REFERENCE'
         'ns:IncludeDetailedScans': true
 
   validateResponse: (response, cb) ->
